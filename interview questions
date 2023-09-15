@@ -1,0 +1,128 @@
+1. What is the difference between a Mutable datatype and an Immutable data type?
+Mutable data types can be edited i.e., they can change at runtime. Eg – List, Dictionary, etc.
+Immutable data types can not be edited i.e., they can not change at runtime. Eg – String, Tuple, etc.
+
+2. What is the difference between a Set and Dictionary?
+The set is an unordered collection of data types that is iterable, mutable and has no duplicate elements.
+A dictionary in Python is an ordered collection of data values, used to store data values like a map.
+
+3. What is the difference between / and // in Python?
+// represents floor division whereas / represents precise division. For Example:
+5//2 = 2
+5/2 = 2.5
+
+4. Difference between for loop and while loop in Python
+The “for” Loop is generally used to iterate through the elements of various collection types such as List, Tuple, Set, and Dictionary.
+Developers use a “for” loop where they have both the conditions start and the end.
+Whereas, the “while” loop is the actual looping feature that is used in any other programming language.
+Programmers use a Python while loop where they just have the end conditions.
+
+5. What is a break, continue, and pass in Python? 
+The break statement is used to terminate the loop or statement in which it is present. 
+After that, the control will pass to the statements that are present after the break statement, if available.
+
+Continue is also a loop control statement just like the break statement. 
+continue statement is opposite to that of the break statement, instead of terminating the loop, it forces to execute the next iteration of the loop.
+
+Pass means performing no operation or in other words, it is a placeholder in the compound statement, 
+where there should be a blank left and nothing has to be written there.
+
+6. How do you access the value returned by a function invoked in another function?
+You can access the value returned by a function invoked in another function by using the return statement. 
+For example, if you have a function that calculates the sum of two numbers, 
+you can access the value returned by the function by using the return statement.
+
+7. Differentiate between List and Tuple?
+Let’s analyze the differences between List and Tuple:
+
+List
+Lists are Mutable datatype.
+Lists consume more memory
+The list is better for performing operations, such as insertion and deletion.
+The implication of iterations is Time-consuming
+
+Tuple
+Tuples are Immutable datatype.
+Tuple consumes less memory as compared to the list
+A Tuple data type is appropriate for accessing the elements
+The implication of iterations is comparatively Faster
+
+8. What does the ‘#’ symbol do in Python?
+‘#’ is used to comment on everything that comes after on the line.
+
+9. What are the two types of functions in Python?
+There are two types of functions in Python: built-in functions and user-defined functions. 
+Built-in functions are functions that are already defined in the Python language, such as the print() function. 
+User-defined functions are functions that are created by the user, and they can be created to do anything that the user wants them to do.
+
+10. Why does Python support both positional and keyword arguments to its functions?
+Python supports both positional and keyword arguments in order to give developers more flexibility when designing their functions.
+Positional arguments are those that are passed in by position, without explicitly specifying the parameter name. 
+Keyword arguments are those that are passed in by explicitly specifying the parameter name. 
+Python allows for both types of arguments so that developers can choose the approach that makes the most sense for their particular function.
+
+11. what is lambda in python ?
+anonymous function means that a function is without a name.
+As we already know that def keyword is used to define the normal functions and the lambda keyword is used to create anonymous functions.
+
+12.  Mention what are the rules for local and global variables in Python?
+Local variables: If a variable is assigned a new value anywhere within the function's body, it's assumed to be local.
+Global variables: Those variables that are only referenced inside a function are implicitly global.
+
+13. Mention the use of the split function in Python?
+The use of the split function in Python is that it breaks a string into shorter strings using the defined separator.
+It gives a list of all words present in the string.
+
+14. What Are The Principal Differences Between The Lambda And Def?
+Lambda Vs. Def.
+Def can hold multiple expressions while lambda is a uni-expression function.
+Def generates a function and designates a name to call it later. Lambda forms a function object and returns it.
+Def can have a return statement. Lambda can’t have return statements.
+Lambda supports to get used inside a list and dictionary.
+
+15.What Is A Function In Python Programming?
+ A function is an object which represents a block of code and is a reusable entity. 
+ It brings modularity to a program and a higher degree of code reusability.
+Python has given us many built-in functions such as print() and provides the ability to create user-defined functions.
+
+16.What Does The Ord() Function Do In Python?
+The ord(char) in Python takes a string of size one and returns an integer denoting the Unicode code format of the character in case of a Unicode type object,
+or the value of the byte if the argument is of 8-bit string type.
+
+17.What are types of Operator are used in Python? 
+Arithmetic Operators
+Comparison Operators
+Python Assignment Operators
+Logical Operators or Bitwise Operators
+Membership Operators
+Identity Operators
+
+18.What is dictionary in Python?
+Python dictionary is an unordered collection of items. While other compound data types have only value as an element, a dictionary has a key: value pair.
+Dictionaries are optimized to retrieve values when the key is known.
+How to create a dictionary?
+Creating a dictionary is as simple as placing items inside curly braces {} separated by comma.
+An item has a key and the corresponding value expressed as a pair, key: value.
+
+19.What is PEP 8?
+ PEP 8 is a coding convention, a set of recommendation, about how to write your Python code more readable.
+
+ 20.What will append() and extend methods do?
+ append() adds the element at the end.
+extend() adds the elements of a different list at the end.
+
+21. what is pop() ?
+The pop() method removes the item at the given index from the list. The method also returns the removed item.
+
+The syntax of the pop() method is:
+	list.pop(index)
+
+Example:- 
+language = ['Python', 'Java', 'C++', 'French', 'C']
+return_value = language.pop(3)
+print('Return Value: ', return_value)
+print('Updated List: ', language)
+
+Output:-
+Return Value:  French
+Updated List:  ['Python', 'Java', 'C++', 'C']
